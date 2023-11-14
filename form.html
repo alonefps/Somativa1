@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <link rel="icon" href="./assets/logo.png" type="image/png" />
+    <title>CryptoLand</title>
+  </head>
+
+  <body>
+    <div class="form-page">
+      <nav class="custom-nav">
+        <ul class="nav-list">
+          <img class="nav-icon" src="./assets/logodark.png" alt="logo" />
+          <a href="./index.html"><a href="./index.html">
+            <li class="nav-item">
+              Início <ion-icon name="chevron-down"></ion-icon></li
+          ></a>
+          <a href="./about.html"
+            ><li class="nav-item">
+              Sobre <ion-icon name="chevron-down"></ion-icon></li
+          ></a>
+          <a href="./form.html"
+            ><li class="nav-item">
+              Formulário <ion-icon name="chevron-down"></ion-icon></li
+          ></a>
+          <a href="./info.html"
+            ><li class="nav-item">
+              Informações <ion-icon name="chevron-down"></ion-icon></li
+          ></a>
+        </ul>
+        <div class="button-group">
+          <a href="https://igorsouza.me" target="_blank"
+            ><button class="custom-button">Entrar</button></a
+          >
+          <a href="https://github.com/alonefps" target="_blank"
+            ><button class="custom-button custom-button-primary">
+              Cadastrar
+            </button></a
+          >
+        </div>
+      </nav>
+
+      <div class="form-container">
+        <main>
+          <h1>Explore o Futuro das Criptomoedas</h1>
+          <p>
+            CryptoLand é a sua porta de entrada para o emocionante mundo das
+            criptomoedas. Nossa plataforma oferece uma maneira fácil e segura de
+            comprar, vender e gerenciar suas criptomoedas.
+          </p>
+        </main>
+
+        <div class="formulary">
+          <div class="formulary-container">
+            <h1>
+              Registre-se agora e fique por dentro das tendências do mercado de
+              criptomoedas.
+            </h1>
+
+            <form id="myForm" method="get">
+              <div class="input-container">
+                <input
+                  type="text"
+                  placeholder="Seu nome completo"
+                  class="custom-input"
+                  id="nomeCompleto"
+                  required
+                />
+                <ion-icon class="custom-icon" name="person-outline"></ion-icon>
+              </div>
+              <div class="input-container">
+                <input
+                  type="phone"
+                  placeholder="Seu número de WhatsApp"
+                  class="custom-input"
+                  id="numeroWhatsApp"
+                  required
+                />
+                <ion-icon class="custom-icon" name="call-outline"></ion-icon>
+              </div>
+              <div class="input-container">
+                <input
+                  type="email"
+                  placeholder="Digite seu email"
+                  class="custom-input"
+                  id="email"
+                  required
+                />
+                <ion-icon class="custom-icon" name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="custom-checkbox-container">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="autorizacao"
+                  required
+                />
+                <span class="custom-text">
+                  Autorizo o envio de comunicações por e-mail ou qualquer outro
+                  meio e concordo com os Termos e Políticas de privacidade.
+                </span>
+              </div>
+
+              <div class="custom-button-container">
+                <button type="button" id="botaoEnviar" class="custom-button">
+                  EMBARCAR NA MISSÃO
+                </button>
+              </div>
+
+              <div class="custom-icon-text-container">
+                <ion-icon
+                  class="check-icon"
+                  name="shield-checkmark-outline"
+                ></ion-icon>
+                <h1 class="custom-text">
+                  Seus dados estão
+                  <span class="custom-highlight">100% seguros</span>
+                </h1>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div
+    </div>
+
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="scripts/form.js"></script>
+  </body>
+</html>
