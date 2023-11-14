@@ -9,7 +9,7 @@ function capturar() {
 
     if (telefoneValido) {
       window.location.href =
-        "info.html" +
+        "formAction.html" +
         "?nomeCompleto=" +
         encodeURIComponent(nomeCompleto) +
         "&numeroWhatsApp=" +
