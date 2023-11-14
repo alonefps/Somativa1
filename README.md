@@ -15,9 +15,9 @@ O projeto está estruturado da seguinte forma:
 
 As pastas são organizadas da seguinte maneira:
 
-- **css**: Contém os arquivos de estilo CSS.
-- **js**: Contém os arquivos Javascript.
-- **images**: Contém as imagens utilizadas no site.
+- **styles**: Contém os arquivos de estilo CSS.
+- **scripts**: Contém os arquivos Javascript.
+- **assets**: Contém as imagens utilizadas no site.
 
 ### Funcionalidades Principais
 
